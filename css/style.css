@@ -948,6 +948,10 @@ img {
   .modal-form-list {
     width: 448px;
   }
+
+  .form-metka-text {
+      margin-left: 8px;
+  }
   
   .modal-form-list:not(:last-child) {
     margin-bottom: 28px;

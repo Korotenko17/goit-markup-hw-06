@@ -1118,7 +1118,8 @@ img {
   
   .form-input:focus + .form-label,
   .textarea-comment:focus + .label-comment,
-  .form-input:not(:placeholder-shown) + .form-label {
+  .form-input:not(:placeholder-shown) + .form-label,
+  .textarea-comment:not(:placeholder-shown) + .label-comment {
     color: #2196F3;
     top: -20px;
     left: 16px;

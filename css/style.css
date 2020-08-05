@@ -1102,6 +1102,7 @@ img {
   
   .modal-form-list:hover .form-img {
     fill:  #2196F3;
+    box-sizing: 12px;
   }
   
   .modal-form-list:hover input,
@@ -1132,6 +1133,7 @@ img {
     color: #2196F3;
     top: -20px;
     left: 16px;
+    box-sizing: 12px;
   }
   
   

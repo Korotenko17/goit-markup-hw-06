@@ -897,6 +897,12 @@ img {
 
 /*Modal*/
 
+.hidden {
+    position: absolute;
+    opacity: 0;
+}
+
+
 .modal-form {
     padding: 40px;
     margin-right: auto;

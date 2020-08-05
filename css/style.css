@@ -909,6 +909,8 @@ img {
     top: 140px;
     right: 536px;
     transition: 250ms linear;
+    background-color: rgba(0, 0, 0, 0.2);
+    z-index: 100;
 }
 
 .is-hidden {
@@ -1030,11 +1032,13 @@ img {
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    transition: 250ms linear;
   }
 
   .btn-close:hover .icon-close,
   .btn-close:focus .icon-close {
     fill: #2196F3;
+    transition: 250ms linear;
   }
 
   .icon-close {

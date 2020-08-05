@@ -905,11 +905,15 @@ img {
 }
 
 .form {
-    position: absolute;
-    top: 140px;
-    right: 536px;
-    transition: 250ms linear;
-    background-color: rgba(0, 0, 0, 0.2);
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
     z-index: 100;
 }
 
@@ -933,7 +937,6 @@ img {
     display: flex;
     flex-direction: column;
     align-items: center;
-    
   }
   
   .form-title {

@@ -908,12 +908,14 @@ img {
     position: absolute;
     top: 140px;
     right: 536px;
+    transition: 250ms linear;
 }
 
 .is-hidden {
     visibility: hidden;
     opacity: 0;
     pointer-events: none;
+    transition: 250ms linear;
 }
 
 .modal-form {

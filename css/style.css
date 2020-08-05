@@ -897,13 +897,14 @@ img {
 
 /*Modal*/
 
-.hidden {
+/* .hidden {
     position: absolute;
-    opacity: 0;
-}
+    opacity: 1;
+} */
 
 
 .modal-form {
+    position: relative;
     padding: 40px;
     margin-right: auto;
     margin-left: auto;
@@ -995,6 +996,32 @@ img {
     cursor: pointer;
   }
   
+  .btn-close {
+    display: flex;
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    top: 14px;
+    right: 14px;
+    border-color: #000000;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  .btn-close:hover .icon-close,
+  .btn-close:focus .icon-close {
+    fill: #2196F3;
+  }
+
+  .icon-close {
+    background-size: contain;
+  }
+
   .modal-form-list input {
     height: 40px;
   }

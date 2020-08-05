@@ -59,11 +59,11 @@
                 <div class="hero">
                     <div class="hero-container">
                         <h1 class="hero-title">эффективные решения <br> для вашего бизнеса</h1>
-                        <button class="hero-button"><span class="text-button">Заказать услугу</span></button>
+                        <button class="hero-button" data-modal-open><span class="text-button">Заказать услугу</span></button>
                     </div>
                 </div>
 
-                <form class="modal-form hidden">
+                <form class="modal-form is-hidden" data-modal>
 
                     <h2 class="form-title">Оставьте свои данные, мы вам перезвоним</h2> 
     
@@ -103,6 +103,11 @@
                     
     
                     <button class="btn-form" type="submit">Отправить</button>
+                    <button class="btn-close" data-modal-close>
+                        <svg class="icon-close" width="18px" height="18px">
+                            <use href="./images/sprite.svg#icon-close"></use>
+                        </svg>
+                    </button>
                 </form>
             </section>
         <!--О нас-->
@@ -481,6 +486,6 @@
         </div>
     </footer>
     
-
+    <script src="./js/modal.js"></script>
 </body>
 </html>
